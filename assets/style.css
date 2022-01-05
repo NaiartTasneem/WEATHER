@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  
+   
+}
+body{
+  
+    background-image: url("../assets/W.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+@media (max-width: 768px) {
+    body{    background-image: url("../assets/W.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:100vh;}}
+.test{
+    display: block;
+    background-color:white;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 150px;
+    border: solid blue;
+}
+.test h2,h1,p,hr{ 
+    color: rgb(18, 14, 77);
+    margin-bottom: 20px;
+    font-weight: 800;
+    text-align: center;
+}
